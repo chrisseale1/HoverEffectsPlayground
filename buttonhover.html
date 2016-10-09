@@ -20,16 +20,20 @@
             <a class="navbar-brand" href="#">HoverEffectsPlayground</a>
             <ul class="nav navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item active">
-                <a class="nav-link" href="purecss.html">Pure Css FX<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="javascript.html">Javascript FX</a>
+                <a class="nav-link" href="texthover.html">Text FX</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="jquery.html">Jquery FX</a>
+                <a class="nav-link" href="imagehover.html">Image FX</a>
+                <li class="nav-item dropdown open active">
+                <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Button FX<span class="sr-only caret">(current)</span></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#basicFade">1. Basic Fade</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
                 </li>
             </ul>
             <form class="form-inline pull-xs-right">
@@ -37,5 +41,20 @@
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
         </nav>
+        <!--button effect 1-->
+        <container>
+            <h1 id="basicFade">1. A Basic Button Fade</h1>
+            <row>
+                <p class="col-md-4 col-sm-12">
+					<button class="btn btn-1 btn-1a">Button</button>
+                </p>
+                <p class="col-md-4 col-sm-12">
+					<button class="btn btn-1 btn-1b">Button</button>
+                </p>
+                <p class="col-md-4 col-sm-12">
+					<button class="btn btn-1 btn-1c">Button</button>
+				</p>
+            </row>
+        </container>
     </body>
 </html>
